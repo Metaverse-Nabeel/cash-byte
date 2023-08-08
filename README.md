@@ -1,24 +1,169 @@
-# README
+# Cash Byte ![Rails](https://rubyonrails.org/assets/images/logo.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 📗 Table of Contents
 
-Things you may want to cover:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [Entity Relationship Diagram](#entity-relationship-diagram)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Database](#database)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-* Ruby version
+# 📖 Cash Byte <a name="about-project"></a>
 
-* System dependencies
+**Cash Byte** The Ruby on Rails capstone project "Cash Byte" is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-* Configuration
+## 🛠 Built With <a name="built-with"></a>
 
-* Database creation
+### Tech Stack <a name="tech-stack"></a>
 
-* Database initialization
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Rails</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Rails</a></li>
+  </ul>
+  </details>
+  <details>
+  <summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-* How to run the test suite
+### Key Features <a name="key-features"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+<!-- - Login page.
+- Registration page.
+- Food list (with all CRUD implementation, except for 'update').
+- Recipes list (with all CRUD implementation, except for 'update').
+- General shopping list view (all missing food for all your recipes and total price).
+- List of all public recipes from other users with their names and total prices. -->
 
-* Deployment instructions
+## Entity Relationship Diagram <a name="entity-relationship-diagram"></a>
 
-* ...
+![](./app/assets/images/erd_diagram.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- [Ruby](https://www.ruby-lang.org/en/) installed and running
+- [Rails](https://rubyonrails.org/) installed and running
+- [PostgreSQL](https://www.postgresql.org/) installed and running
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+git clone 
+cd cash-byte
+code .
+```
+
+### Install
+
+Install the project dependencies, execute the following command in Bash:
+
+```sh  
+  bundle install
+```
+
+### Database
+
+Create the database, execute the following command in Bash:
+
+```sh
+rails db:create
+rails db:migrate
+```
+
+### Usage
+
+To run the project, execute the following command in Bash:  
+
+```sh
+  rails server
+```
+
+### Run Tests
+
+To run the project tests, execute the following command: 
+
+```sh
+ rspec spec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author / Owner <a name="authors"></a>
+
+👤 **Nabeel Ahmed**
+- GitHub: [@Metaverse-Nabeel](https://github.com/Metaverse-Nabeel)
+- LinkedIn: [@Nabeel129](https://www.linkedin.com/in/nabeel129/)
+- Wellfound(AngelList): [@Nabeel129](https://wellfound.com/u/nabeel-ahmed-62) 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Pagination or infinite scrolling for the lists
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a start if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank the Microverse program!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Credits <a name="acknowledgements"></a>
+
+- I would like to give credit for Original design idea to [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
