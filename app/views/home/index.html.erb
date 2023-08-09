@@ -1,9 +1,9 @@
-<section class="flex flex-col min-h-screen bg-blue-500">
-  <div class="flex-grow flex flex-col justify-center items-center">
-    <img src="../../assets/images/logo.svg" alt="Cash Byte Logo" class="w-32 h-32" />
-  </div>
-  <div class="py-4 flex flex-col items-center">
-    <a href="#" class="text-white font-semibold mb-2">Log In</a>
-    <a href="#" class="text-white font-semibold">Sign Up</a>
-  </div>
-</section>
+<section class="flex flex-col h-screen justify-between items-center">
+    <div class="flex-grow flex flex-col justify-center items-center">
+      <%= image_tag('logo.svg', alt: 'Cash Byte Logo', class: 'w-20 h-20') %>
+    </div>
+    <div class="py-4 w-full flex flex-col items-center">
+      <%= link_to 'Log In', new_user_session_path, class: 'text-text bg-main font-semibold p-4 mb-2 w-full text-center' %>
+      <%= link_to 'Sign Up', new_user_registration_path, class: 'text-text bg-main font-semibold p-4 w-full text-center' %>
+    </div>
+  </section>
