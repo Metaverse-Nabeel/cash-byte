@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Proxima";
-  src: url("../fonts/Proxima\ Nova\ Font.woff") format("woff"),
+  src:
+    url("../fonts/Proxima\ Nova\ Font.woff") format("woff"),
     url("../fonts/Proxima\ Nova\ Font.woff2") format("woff2");
 }
 
