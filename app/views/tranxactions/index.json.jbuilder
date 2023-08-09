@@ -1,1 +1,1 @@
-json.array! @tranxactions, partial: "tranxactions/tranxaction", as: :tranxaction
+json.array! @tranxactions, partial: 'tranxactions/tranxaction', as: :tranxaction
