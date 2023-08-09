@@ -1,8 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show edit update destroy ]
 
-  devise :database_authenticatable, :registerable, :confirmable, :recoverable, stretches: 13
-
   # GET /users or /users.json
   def index
     @users = User.all
