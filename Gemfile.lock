@@ -89,6 +89,7 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     erubi (1.12.0)
+    ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.14.1)
@@ -191,6 +192,9 @@ GEM
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     selenium-webdriver (4.10.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -203,6 +207,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     stimulus-rails (1.2.2)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.30-x64-mingw-ucrt)
       railties (>= 6.0.0)
     thor (1.2.2)
     timeout (0.4.0)
@@ -245,9 +251,11 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.6)
   rubocop (>= 1.0, < 2.0)
+  sassc (~> 2.0.0)
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  tailwindcss-rails
   turbo-rails
   tzinfo-data
   web-console
