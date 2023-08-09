@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Tranxactions</h1>
+
+<div id="tranxactions">
+  <% @tranxactions.each do |tranxaction| %>
+    <%= render tranxaction %>
+    <p>
+      <%= link_to "Show this tranxaction", tranxaction %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New tranxaction", new_tranxaction_path %>
