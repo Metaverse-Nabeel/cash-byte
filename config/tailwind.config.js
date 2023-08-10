@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
@@ -10,14 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'proxima': ['Proxima Nova Font', 'sans-serif'],
-        'proxima-light': ['Proxima Nova Light Font', 'sans-serif'],
-        'proxima-bold': ['Proxima Nova Bold Font', 'sans-serif'],
-      },
-      colors: {
-        main: '#3778c2',
-        second: '#5fb523',
-        text: '#434b54',
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
   },
@@ -25,6 +18,5 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
-    require('@tailwindcss/container-queries'),
   ]
 }

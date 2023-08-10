@@ -1,0 +1,10 @@
+<div id="<%= dom_id deal %>" class="w-full flex justify-between items-center border border-t-0 p-2 my-3">
+  <div class="">
+    <strong class="block font-medium mb-1"><%= deal.name %></strong>
+    <p><%= deal.created_at.strftime("%d %b %Y")%></p>
+  </div>
+
+  <p class="">
+    <strong class="block font-medium mb-1">$<%= deal.amount %></strong>
+  </p>
+</div>

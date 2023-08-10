@@ -16,6 +16,7 @@ class CategoriesTest < ApplicationSystemTestCase
 
     fill_in 'Icon', with: @category.icon
     fill_in 'Name', with: @category.name
+    fill_in 'User', with: @category.user_id
     click_on 'Create Category'
 
     assert_text 'Category was successfully created'
@@ -28,6 +29,7 @@ class CategoriesTest < ApplicationSystemTestCase
 
     fill_in 'Icon', with: @category.icon
     fill_in 'Name', with: @category.name
+    fill_in 'User', with: @category.user_id
     click_on 'Update Category'
 
     assert_text 'Category was successfully updated'
