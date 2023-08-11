@@ -88,3 +88,6 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
+  database: budget_app_development
+  username: postgres
+  password: Metaverse@44
