@@ -20,7 +20,10 @@ class DealsController < ApplicationController
         if @deal.categories.present?
           format.html { redirect_to @deal.categories.first, notice: 'Transaction was successfully added.' }
         else
-          format.html { redirect_to root_path, notice: 'Transaction was successfully added, but no category is associated with the deal.' }
+          format.html do
+            redirect_to root_path,
+                        notice: 'Transaction was successfully added, but no category is associated with the deal.'
+          end
         end
       else
         format.html { render :new, status: :unprocessable_entity }
