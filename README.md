@@ -68,7 +68,7 @@
 
 ## 🚀 Live Version <a name="live-version"></a>
 
-- [Cash Byte]()
+- [Comming Soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@
 
 ## 🚀 Presenation video <a name="live-demo"></a>
 
-- [Video]()
+- [Video](https://www.loom.com/share/c618a0f2f5ff4b5fb5759fe4181fea21?sid=2ff4de93-69d9-44c0-b631-275a44d9d258)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
