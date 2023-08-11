@@ -7,6 +7,8 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [Entity Relationship Diagram](#entity-relationship-diagram)
+- [🚀 Live Version](#live-version)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -62,6 +64,21 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Version <a name="live-version"></a>
+
+- [Cash Byte]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Presentation -->
+
+## 🚀 Presenation video <a name="live-demo"></a>
+
+- [Video]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
