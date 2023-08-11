@@ -7,7 +7,8 @@ RSpec.describe 'Categories', type: :request do
     Category.create([
                       { user: @user, name: 'Sports',
                         icon: 'D:\Work\Microverse\Module 5\Week 5\cash-byte\app\assets\images\bike.png' },
-                      { user: @user, name: 'Movies', icon: 'D:\Work\Microverse\Module 5\Week 5\cash-byte\app\assets\images\car.png' }
+                      { user: @user, name: 'Movies',
+                        icon: 'D:\Work\Microverse\Module 5\Week 5\cash-byte\app\assets\images\car.png' }
                     ])
 
     get categories_path
