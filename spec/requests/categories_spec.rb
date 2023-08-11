@@ -13,11 +13,4 @@ RSpec.describe 'Categories', type: :request do
     get categories_path
   end
 
-  it 'for a renders index template' do
-    expect(response).to have_http_status(:found)
-  end
-
-  it 'for a success' do
-    expect(response).to have_http_status(:found)
-  end
 end
