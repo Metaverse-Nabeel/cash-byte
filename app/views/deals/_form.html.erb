@@ -1,0 +1,28 @@
+<%= form_with(model: deal, class: "contents") do |form| %>
+  <div class="w-full flex justify-between items-center text-white bg-blue-400 p-2">
+    <%= link_to "", url_for(:back), class: "fa-solid fa-chevron-left" %>
+    <h2 class="uppercase">Transaction</h2>
+    <i></i>
+  </div>
+  <% if deal.errors.any? %>
+    <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3">
+      <h2><%= pluralize(deal.errors.count, "error") %> prohibited this deal from being saved:</h2>
+
+      <ul>
+        <% deal.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="m-2">
+    <%= form.text_field :name, placeholder: "Deal name", class: "text-sm text-gray-base w-full py-5 px-4 h-2 border border-gray-200 rounded mb-2" %>
+    <%= form.text_field :amount, placeholder: "Amount", class: "text-sm text-gray-base w-full py-5 px-4 h-2 border border-gray-200 rounded mb-2" %>
+    <%= form.collection_select :category_ids, current_user.categories.order(:name), :id, :name, {}, { class: "input w-full text-sm text-gray-base py-5 px-4 border border-gray-200 rounded mb-2", multiple: true } %>
+  </div>
+
+  <div class="absolute bottom-0 left-0 w-full py-3 px-5 bg-blue-600">
+    <%= form.submit class: "w-full uppercase p-3 border-solid border-2 border-light-white-500 py-3 px-5 text-white inline-block font-medium cursor-pointer" %>
+  </div>
+<% end %>

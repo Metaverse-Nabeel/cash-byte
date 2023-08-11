@@ -1,2 +1,0 @@
-class Tranxaction < ApplicationRecord
-end

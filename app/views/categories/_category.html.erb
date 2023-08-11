@@ -1,12 +1,14 @@
-<div id="<%= dom_id category %>">
-  <p>
-    <strong>Name:</strong>
-    <%= category.name %>
-  </p>
-
-  <p>
-    <strong>Icon:</strong>
-    <%= category.icon %>
-  </p>
-
-</div>
+<%= link_to category_url(category) do %>
+  <div class="p-2 mb-3 flex justify-between items-center border bg-white border-3 shadow-lg rounded">
+    <div class="flex items-center">
+      <% if category.icon.present? %>
+        <%= text_field category.icon, class: "image w-20 h-20 mr-2" %>
+      <% end %>
+      <div>
+          <h3 class="font-bold capitalize text-black-300"><%= category.name %></h3>
+          <p><%= category.created_at.strftime("%d %b %Y") %></p>
+      </div>
+    </div>
+    <p class="font-bold">$<%= category.total_amount %></p>
+  </div>
+<%end%>

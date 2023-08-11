@@ -1,10 +1,21 @@
-<p style="color: green"><%= notice %></p>
+<div class="w-full overflow-y-auto flex flex-col">
+  <div class="w-full flex justify-between items-center text-white bg-blue-400 p-2">
+    <%= link_to "", categories_path, class: "fa-solid fa-chevron-left" %>
+    <h2 class="uppercase"><%= @category.name %>2</h2>
+    <i></i>
+  </div>
+  <div class="flex w-full justify-between items-center p-3 border-b-2 border-gray-200">
+    <p class="font-thin">Total amount: </p>
+    <p class="font-semibold">$<%= @category.total_amount.round(2) %></p>
+  </div>
+  <div class="w-full flex flex-col p-1">
 
-<%= render @category %>
+  <%= render 'deals/index', locals: { deals: @deals } %>
 
-<div>
-  <%= link_to "Edit this category", edit_category_path(@category) %> |
-  <%= link_to "Back to categories", categories_path %>
-
-  <%= button_to "Destroy this category", @category, method: :delete %>
+  </div>
+  <div class="fixed w-screen bottom-0 left-0 p-4 bg-green-500">
+    <%= link_to 'Add new Deal',
+        new_deal_path,
+        class: "uppercase w-full p-3 border-solid border-2 border-light-white-500  text-white block font-medium flex  justify-center items-center py-3 px-5" %>
+  </div>
 </div>
