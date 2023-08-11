@@ -16,11 +16,16 @@
         placeholder: "Category name",
         class: "text-sm text-gray-base w-full py-5 px-4 h-2 border border-gray-200 rounded mb-2"
     %>
-    
+
     <%= form.file_field :icon,
         placeholder: "Icon",
         class: "text-sm text-gray-base w-full py-5 px-4 h-2 border border-gray-200 rounded mb-2"
     %>
+
+    <% if category.icon.present? %>
+      <p>Current Icon: <%= image_tag category.icon, class: "image w-20 h-20" %></p>
+    <% end %>
+    
     <%= form.number_field :user_id,
         id: :category_user_id,
         placeholder: "Athor id",

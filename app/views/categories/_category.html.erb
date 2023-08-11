@@ -2,7 +2,7 @@
   <div class="p-2 mb-3 flex justify-between items-center border bg-white border-3 shadow-lg rounded">
     <div class="flex items-center">
       <% if category.icon.present? %>
-        <%= text_field category.icon, class: "image w-20 h-20 mr-2" %>
+        <%= image_tag category.icon, class: "image w-20 h-20 mr-2" %>
       <% end %>
       <div>
           <h3 class="font-bold capitalize text-black-300"><%= category.name %></h3>

@@ -7,6 +7,8 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [Entity Relationship Diagram](#entity-relationship-diagram)
+- [🚀 Live Version](#live-version)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -50,12 +52,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-<!-- - Login page.
+- Login page.
 - Registration page.
-- Food list (with all CRUD implementation, except for 'update').
-- Recipes list (with all CRUD implementation, except for 'update').
-- General shopping list view (all missing food for all your recipes and total price).
-- List of all public recipes from other users with their names and total prices. -->
+- Category page.
+- Deals page (showing expense against a particular category)
+- All Categories page (all categories and total amount).
 
 ## Entity Relationship Diagram <a name="entity-relationship-diagram"></a>
 
@@ -63,6 +64,21 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Version <a name="live-version"></a>
+
+- [Cash Byte]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Presentation -->
+
+## 🚀 Presenation video <a name="live-demo"></a>
+
+- [Video]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -132,7 +148,9 @@ To run the project tests, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Pagination or infinite scrolling for the lists
+- Making desktop view
+- Impoving UI / UX of the application
+- Improving Navigation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
