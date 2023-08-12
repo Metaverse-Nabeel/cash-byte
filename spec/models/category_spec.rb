@@ -5,7 +5,8 @@ RSpec.describe Category, type: :model do
     @user = User.create(name: 'Nabeel', email: 'Nabeel1994@gmail.com', password: 'asdf1234')
     @category = Category.new(user: @user, name: 'Sports')
     # Attach an icon using Active Storage for testing
-    @category.icon.attach(io: File.open(Rails.root.join('spec', 'fixtures', 'bike.png')), filename: 'bike.png', content_type: 'image/png')
+    @category.icon.attach(io: File.open(Rails.root.join('spec', 'fixtures', 'bike.png')), filename: 'bike.png',
+                          content_type: 'image/png')
   end
 
   context 'This Testing Validations' do
@@ -19,7 +20,7 @@ RSpec.describe Category, type: :model do
     end
 
     it 'is not valid without category icon' do
-      @category.icon.purge  # Remove attached icon
+      @category.icon.purge # Remove attached icon
       expect(@category).to_not be_valid
     end
 
