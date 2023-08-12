@@ -1,5 +1,5 @@
 <div class="w-full overflow-y-auto flex flex-col">
-  <div class="w-full flex justify-between items-center text-white bg-blue-400 p-2">
+  <div class="w-full flex justify-between items-center text-white p-2" style= 'background-color: #3778c2;' >
     <%= link_to "", categories_path, class: "fa-solid fa-chevron-left" %>
     <h2 class="uppercase"><%= @category.name %>2</h2>
     <i></i>
@@ -13,9 +13,9 @@
   <%= render 'deals/index', locals: { deals: @deals } %>
 
   </div>
-  <div class="fixed w-screen bottom-0 left-0 p-4 bg-green-500">
+  <div class="fixed w-screen bottom-0 left-0 p-4" style= "background-color: #5fb523;">
     <%= link_to 'Add new Deal',
         new_deal_path,
-        class: "uppercase w-full p-3 border-solid border-2 border-light-white-500  text-white block font-medium flex  justify-center items-center py-3 px-5" %>
+        class: "uppercase w-full p-3 border-solid border-2 border-light-white-500 text-white block font-medium flex  justify-center items-center py-3 px-5" %>
   </div>
 </div>

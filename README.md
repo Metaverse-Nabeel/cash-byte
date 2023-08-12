@@ -76,7 +76,7 @@
 
 ## 🚀 Presenation video <a name="live-demo"></a>
 
-- [Video](https://www.loom.com/share/2f0d707ba4f24105999dff5f9ce26b84?sid=2006c4a2-f8e2-48cf-bba6-f4767db1a198)
+- [Video](https://www.loom.com/share/0b8961eb4d9941e787fc6f6103b9bee7?sid=68f380bf-a0ff-43ed-9c22-7497a250041f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +158,7 @@ To run the project tests, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Metaverse-Nabeel/cash-byte/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,6 +182,6 @@ Give a start if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

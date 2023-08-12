@@ -1,14 +1,14 @@
 <div class="w-full h-screen relative overflow-y-auto bg-purple-100">
   <% if notice.present? %>
-    <p class="absolute bottom-0 left-0 py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+    <p class="absolute bottom-0 left-0 py-2 px-3 bg-green-50 mb-5 font-medium rounded-lg inline-block" style= 'color: #5fb523;' id="notice"><%= notice %></p>
   <% end %>
 
   <%= render "header" %>
 
-  <div class="fixed w-screen bottom-0 left-0 p-4 bg-green-500">
+  <div class="fixed w-screen bottom-0 left-0 p-4" style= 'background-color: #5fb523;'>
     <%= link_to 'scan',
         new_category_path,
-        class: "uppercase w-full p-3 border-solid border-2 border-light-white-500  text-white block font-medium flex  justify-center items-center py-3 px-5" %>
+        class: "uppercase w-full p-3 border-solid border-2 border-light-white-500  text-white block font-medium flex justify-center items-center py-3 px-5" %>
   </div>
 
   <div id="categories" class="p-3">
