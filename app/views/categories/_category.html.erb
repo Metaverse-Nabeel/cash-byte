@@ -5,10 +5,10 @@
         <%= image_tag category.icon, class: "image w-20 h-20 mr-2" %>
       <% end %>
       <div>
-          <h3 class="font-bold capitalize text-black-300"><%= category.name %></h3>
-          <p><%= category.created_at.strftime("%d %b %Y") %></p>
+          <h3 class="font-bold capitalize" style= 'color: #6b737d;'><%= category.name %></h3>
+          <p style= 'color: #6b737d; margin-top: 0.7rem;'><%= category.created_at.strftime("%d %b %Y") %></p>
       </div>
     </div>
-    <p class="font-bold">$<%= category.total_amount %></p>
+    <p class="font-bold" style= 'color: #434b54;'>$<%= category.total_amount %></p>
   </div>
 <%end%>

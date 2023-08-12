@@ -158,7 +158,7 @@ To run the project tests, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Metaverse-Nabeel/cash-byte/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,6 +182,6 @@ Give a start if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
